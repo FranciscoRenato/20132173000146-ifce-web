@@ -1,0 +1,64 @@
+<!DOCTYPE html>                                                 <!-- Define que é um documento HTML -->
+<html lang="en">                                                <!-- Descreve um documento HTML -->
+    <head>                                                      <!-- Inicia o campo head -->
+        <meta charset="UTF-8">                                  <!-- Inicia a tag meta para identificar os caracteres ASCII BR -->
+        <title>Web formulario</title>                           <!-- Defini o titulo do site -->
+    </head>                                                     <!-- Finaliza o campo head -->
+    <body>                                                      <!-- Inicia p campo bady -->
+    <!-- Exemplo de um formulario HTML -->
+
+        <h1 style="text-align: center; "> Formulário </h1> <br>                  <!-- Cabecalho do formulario -->
+
+        <form action="/Dados" method="get">                     <!-- Inicio do formulario com acao e metodo -->
+
+            Primeiro Nome: <br>                                 <!-- Exibe Primeiro Nome na pagina do site -->
+            <input type="text" name="primeironome"> <br><br>    <!-- Recebe o texto com o nome -->
+
+            Segundo Nome: <br>                                  <!-- Exibe Segundo Nome na pagina do site -->
+            <input type="text" name="segundonome"> <br><br>     <!-- Recebe o texto com o segundo nome -->
+
+            E-mail: <br>                                        <!-- Exibe E-mail na pagina do site -->
+            <input type="email" name="email"> <br><br>          <!-- Recebe o texto com o email digitado -->
+
+            Senha: <br>                                         <!-- Exibe Senha na pagina do site -->
+            <input type="password" name="senha" ><br><br>       <!-- Recebe a senha digitada criptografada -->
+
+            Idade: <br>                                         <!-- Exibe idade na pagina do site -->
+            <input type="number" name="idade"> <br><br>         <!-- Recebe o valor da idade -->
+
+            Sexo: <br>                                                          <!-- Exibe Sexo na pagina do site, e se escolhe uma -->
+            <input type="radio" name="genero" value="M"> M <br>                 <!-- Exibe M para mulher -->
+            <input type="radio" name="genero" value="H"> H <br>                 <!-- Exibe H para homem -->
+            <input type="radio" name="genero" value="Outro"> Outro <br><br>     <!-- Exibe Outro para outro -->
+
+            <textarea name="message" rows="10" cols="50"> </textarea> <br><br   <!-- Exibe uma caixa de texto para observação -->
+
+            País: <br>                                          <!-- Exibi País na pagina para escolhe um -->
+            <select>                                            <!-- Inicia a tag selecione -->
+                <option value="Brasil"> Brasil </option>        <!-- Escolhe uma opção -->
+            </select><br><br>                                   <!-- Fecha a tag selecione -->
+
+            Estado: <br>                                        <!-- Exibe Estado na pagina para escolhe um -->
+            <select>                                            <!-- Inicia a tag selecione -->
+                <option value="CE"> CE </option>                <!-- Opção 1 CE -->
+                <option value="PI"> PI </option>                <!-- Opcao 2 PI -->
+                <option value="MA"> MA </option>                <!-- Opcao 3 MA -->
+                <option value="BH"> BH </option>                <!-- Opcao 4 BH -->
+            </select><br><br>                                   <!-- Fecha a tag selecione -->
+
+            Quantos carros gostria de ter?                              <!-- Exibe a frase na pagina do site -->
+            <input type="number" name="quantidade" size="10"><br><br>   <!-- Recebe o numero refererente a quantodade  -->
+
+            Data:                                               <!-- Exibe Data na paginda do site -->
+            <input type="date" name="aniv"/><br>                <!-- Recebe e exibe a data (numero) na pagina do site -->
+
+            Cor:                                                <!-- Exibe cor na pagina do site -->
+            <input type="color" name="cor"/><br>                <!-- Abre uma janela de cores para se secolher uma -->
+
+            <input type="submit" value="submit"> <br>           <!-- Exibe um botão submeter e abre outra aba -->
+
+
+        </form>                                                 <!-- Fecha o formulario -->
+
+    </body>                                                     <!-- Fecha o body -->
+</html>                                                         <!-- Fecha HTML -->
