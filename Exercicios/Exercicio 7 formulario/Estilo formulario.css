@@ -1,0 +1,27 @@
+
+head{
+
+}
+
+body{
+    background: burlywood;
+    font-family: "Georgia";
+}
+
+h1{
+    border-style: double;
+    font-family: "Arial Black";
+    color: darkcyan;
+}
+
+input{
+    border-style: double;
+}
+
+textarea{
+    border-style: double;
+}
+
+select{
+    border-style: double;
+}
