@@ -106,7 +106,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Exercicio 7 formulario" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
@@ -219,12 +219,12 @@
       <updated>1520361434025</updated>
       <workItem from="1520361439077" duration="4486000" />
       <workItem from="1520445664542" duration="619000" />
-      <workItem from="1521590829957" duration="35000" />
+      <workItem from="1521590829957" duration="521000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5140000" />
+    <option name="totallyTimeSpent" value="5626000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
