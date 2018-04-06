@@ -1,5 +1,6 @@
+
 body {
-    background-image: url("parallax-cadastro.jpg");
+    background: yellow;
 }
 
 form{
@@ -13,8 +14,11 @@ form{
     text-align: center;
 }
 
-.menu{
-
+.menu ul{
+    list-style: none;
+    text-transform: uppercase;
+    font-size: 150%;
+    color: white;
 }
 
 img{
@@ -24,18 +28,32 @@ img{
 h1{
     text-align: center;
     font-family: "Arial Narrow";
-    color: aqua;
+    color: white;
 }
 
 h2{
     margin-left: 30px;
+    color: white;
 }
 
 h3 {
     margin-right: 70px;
+    color: white;
 }
 
 .anuncio{
     text-align: right;
     margin-right: 200px;
+}
+
+nav.menu a{
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+}
+
+@media screen and (min-width: 400px) {
+    body{
+        background-color: red;
+    }
 }
