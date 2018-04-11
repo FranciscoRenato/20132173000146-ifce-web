@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title> Cadastro </title>
+    <link rel="stylesheet" href="estilo_horario.css">
+</head>
+<body>
+
+
+
+<form class="cadastro">
+
+    <img id="logoc" src="Imagens/IFCE-Taua-logo.png" alt="IFCE Tauá">
+
+    <legend> Cadastro </legend>
+    <br><br><br>
+    <p> Curso: <input type="text" name="curso" size="30" placeholder="Curso"></p>
+    <p> Professor: <input  type="text" name="professor" size="27" placeholder="Professor"></p>
+    <p> Disciplina: <input type="text" name="disciplina" size="26" placeholder="Disciplina"></p>
+    <p id="se"> Dia da semana:
+        <select name="semana" id="semana">
+            <option value="segunda"> Segunda </option>
+            <option value="terca"> Terça </option>
+            <option value="quarta"> Quarta </option>
+            <option value="quinta"> Quinta </option>
+            <option value="sexta"> Sexta </option>
+        </select>
+    </p>
+    <p id="hora_c"> Horário: <input type="time" name="hora" placeholder="Horário"></p>
+    <input type="button" name="button" value="Cadastrar">
+</form>
+
+</body>
+</html>

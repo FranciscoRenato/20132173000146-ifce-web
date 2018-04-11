@@ -1,0 +1,183 @@
+/* Estilo CSS do site de Horários*/
+@charset "UTF-8";
+
+/*------------------ Estilo do Body ----------------*/
+body{
+    background: white;
+}
+/*------------------ Fim do Estilo do Body ----------------*/
+
+/*------------------ Estilo das Letras ----------------*/
+body h1{
+    text-align: center;
+    color: white;
+}
+form.login p{
+    font-weight: bold;
+}
+legend{
+    position: absolute;
+    margin-top: 15px;
+    padding-left: 120px;
+    font-weight: bold;
+    font-size: 25px;
+}
+legend#r_senha{
+    position: absolute;
+    margin-top: 15px;
+    padding-left: 100px;
+    font-weight: bold;
+    font-size: 25px;
+}
+/*------------------ Fim do Estilo do Body ----------------*/
+
+/*------------------ Estilo do Formulário ----------------*/
+
+form{                     /* Dentro de form */
+    text-align: center;   /* Define o formulario no centro */
+}
+
+form.login{                        /* Dentro de form, no login */
+    position: absolute;
+    width: 280px;                  /* Uma largura de 300px*/
+    height: 220px;                 /* Uma altura de 100px*/
+    background-color: #37c837;        /* Define a cor de fundo do login */
+    border-radius: 10px;           /* Rio da borda de 25px*/
+    box-shadow: 0 0 5px #000000;   /* Sobreamnto com a cor preta*/
+    margin: auto;                  /* Margem automatico */
+    margin-top: 215px;              /* Topo da margem 20px */
+    margin-left: 530px;
+    margin-bottom: 1px;
+}
+
+form.cadastro{                     /* Dentro de form, no login */
+    position: absolute;
+    width: 300px;                  /* Uma largura de 300px*/
+    height: 290px;                 /* Uma altura de 100px*/
+    background-color: #37c837;       /* Define a cor de fundo do login */
+    border-radius: 10px;           /* Rio da borda de 25px*/
+    box-shadow: 0 0 5px #000000;   /* Sobreamnto com a cor preta*/
+    margin: auto;                  /* Margem automatico */
+    margin-top: 170px;              /* Topo da margem 20px */
+    margin-left: 500px;
+}
+form.cadastro p#hora_c{
+    text-align: left;
+    margin-left: 5px;
+}
+
+form.cadastro p#se{
+    margin-left: -108px;
+}
+
+form.recuperar_senha{                     /* Dentro de form, no login */
+    position: absolute;
+    width: 350px;                  /* Uma largura de 300px*/
+    height: 175px;                 /* Uma altura de 100px*/
+    background-color: #37c837;       /* Define a cor de fundo do login */
+    border-radius: 10px;           /* Rio da borda de 25px*/
+    box-shadow: 0 0 5px #000000;   /* Sobreamnto com a cor preta*/
+    margin: auto;                  /* Margem automatico */
+    margin-top: 240px;              /* Topo da margem 20px */
+    margin-left: 500px;
+}
+/*------------------ Fim do Estilo do Formulário ----------------*/
+
+/*------------------------ Formatação do Menu -----------------------*/
+nav.menu {                      /* Dentro de nav, no menu */
+    display: block;             /* Transforma o menu em um bloco */
+}
+
+nav.menu ul{                    /* Dentro de nav, no menu, em ul */
+    list-style: none;           /* Tira a marcação referente a uma lista */
+    position: absolute;         /* Permite que o bloco menu se movimente por o site completo */
+    text-transform: uppercase;  /* Transforma as Letras e meiúscula */
+    top: 46px;                  /* Da uma distância do topo do site */
+    left: 1050px;                /* Da uma distânca da largura do site*/
+}
+
+nav.menu li{                    /* Dentro de nav, no menu, em li */
+    display: inline-block;      /* Permite que o menu fique em uma uica linha */
+    background-color: darkgray; /* Define a cor do fundo do menu */
+    padding: 10px;              /* Define o temanho da margem interior */
+    margin: 2px;                /* Define o temanho da margem externa */
+}
+
+nav.menu a{                     /* Dentro de nav, no menu, em a */
+    text-decoration: none;      /* Retira o sublinhado do menu */
+    color: #000000;             /* Define a cor da letra do menu */
+}
+
+nav.menu a:hover{               /* Dentro de nav, no menu, em a, transissão aparecer*/
+    color: #008033;                /* Transissão mudar a cor para verde*/
+}
+
+nav.menu h1{                    /* Dentro de nav, no menu, em h1 */
+    display: none;              /* Texto h1 invisível no site */
+}
+/*----------------------- Fim da formatação do Menu -------------------*/
+
+/*----------------------- Estilo da tabela -------------------*/
+table.horario{
+    width: 50%;
+}
+
+table, td, th{
+    text-align: center;
+    margin: auto;
+    margin-top: 100px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+ td{
+    background-color: white  !important;
+}
+
+
+th{
+    height: 50px;
+}
+
+/*----------------------- Fim do Estilo da tabela -------------------*/
+
+/*------------------ Estilo das Images ----------------*/
+img#logo{
+    position: absolute;
+    margin: auto;
+    margin-top: -23px;
+    margin-left: -10px;
+    width: 110px;
+    height: 104px;
+}
+img#logoc{
+    position: absolute;
+    margin: auto;
+    margin-top: 3px;
+    margin-left: -146px;
+    width: 55px;
+    height: 55px;
+}
+img#logol{
+    position: absolute;
+    margin: auto;
+    margin-top: 3px;
+    margin-left: -135px;
+    width: 55px;
+    height: 55px;
+}
+img#logo_r{
+    position: absolute;
+    margin: auto;
+    margin-top: 3px;
+    margin-left: -170px;
+    width: 55px;
+    height: 55px;
+}
+/*------------------ Fim do Estilo das Imagens ----------------*/
+
+/*----------------------- Estilo responsivo -------------------*/
+/*@media screen end (min-width: 480px ){
+    
+}*/
+/*----------------------- Fim do Estilo responsivo -------------------*/

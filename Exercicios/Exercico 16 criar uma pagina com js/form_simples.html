@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> form </title>
+</head>
+<body>
+
+<form action="cadastrar" method="get">
+
+    <p>Excreva algo: <input id="idcampo1" type="text" placeholder="Ecreva"></p>
+    <p>Aqui também: <input id="idcampo2" type="text" placeholder="tambem"></p>
+    <input type="button" name="botao" value="clique" onclick="mudaCor()">
+
+</form>
+
+<script>
+
+    function mudaCor() {
+        var campo1 = document.getElementById(idcampo1);
+        var campo2 = document.getElementById(idcampo2);
+        if (campo1 != null){
+            document.getElementById("idcampo1").style.color = "blue";
+            document.getElementById("idcampo1").style.backgroundColor = "white";
+        }  else {
+            document.getElementById("idcampo1").style.color = "red";
+        }
+        if (campo2 != null){
+            document.getElementById("idcampo2").style.color = "blue";
+        }  else {
+            document.getElementById("idcampo2").style.color = "red";
+        }
+    }
+
+</script>
+
+</body>
+</html>
