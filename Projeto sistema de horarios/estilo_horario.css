@@ -8,19 +8,29 @@ body{
 /*------------------ Fim do Estilo do Body ----------------*/
 
 /*------------------ Estilo das Letras ----------------*/
-body h1{
+body h1#titulo{
     text-align: center;
-    color: white;
+    color: black;
 }
-form.login p{
+body p#obs{
+    font-size: 12px;
+}
+div#l_login form.login p{
     font-weight: bold;
 }
-legend{
+legend#cadatro{
     position: absolute;
     margin-top: 15px;
-    padding-left: 120px;
+    padding-left: 63px;
     font-weight: bold;
     font-size: 25px;
+}
+div#l_login legend#login{
+    position: absolute;
+    margin-top: 15px;
+    padding-left: 115px;
+    font-weight: bold;
+    font-size: 30px;
 }
 legend#r_senha{
     position: absolute;
@@ -37,15 +47,15 @@ form{                     /* Dentro de form */
     text-align: center;   /* Define o formulario no centro */
 }
 
-form.login{                        /* Dentro de form, no login */
+div#l_login form.login{                        /* Dentro de form, no login */
     position: absolute;
     width: 280px;                  /* Uma largura de 300px*/
-    height: 220px;                 /* Uma altura de 100px*/
-    background-color: #37c837;        /* Define a cor de fundo do login */
+    height: 290px;                 /* Uma altura de 100px*/
+    background-color: lavender;        /* Define a cor de fundo do login */
     border-radius: 10px;           /* Rio da borda de 25px*/
     box-shadow: 0 0 5px #000000;   /* Sobreamnto com a cor preta*/
     margin: auto;                  /* Margem automatico */
-    margin-top: 215px;              /* Topo da margem 20px */
+    margin-top: 180px;              /* Topo da margem 20px */
     margin-left: 530px;
     margin-bottom: 1px;
 }
@@ -53,28 +63,32 @@ form.login{                        /* Dentro de form, no login */
 form.cadastro{                     /* Dentro de form, no login */
     position: absolute;
     width: 300px;                  /* Uma largura de 300px*/
-    height: 290px;                 /* Uma altura de 100px*/
-    background-color: #37c837;       /* Define a cor de fundo do login */
+    height: 327px;                 /* Uma altura de 100px*/
+    background-color: lavender;       /* Define a cor de fundo do login */
     border-radius: 10px;           /* Rio da borda de 25px*/
     box-shadow: 0 0 5px #000000;   /* Sobreamnto com a cor preta*/
     margin: auto;                  /* Margem automatico */
     margin-top: 170px;              /* Topo da margem 20px */
     margin-left: 500px;
 }
-form.cadastro p#hora_c{
+form.cadastro p#cHora{
+    text-align: left;
+    margin-left: 5px;
+}
+form.cadastro p#cHorafim{
     text-align: left;
     margin-left: 5px;
 }
 
-form.cadastro p#se{
+form.cadastro p#cDia{
     margin-left: -108px;
 }
 
-form.recuperar_senha{                     /* Dentro de form, no login */
+div#recuperar_senha form.recuperar_senha{    /* Dentro de form, no login */
     position: absolute;
     width: 350px;                  /* Uma largura de 300px*/
     height: 175px;                 /* Uma altura de 100px*/
-    background-color: #37c837;       /* Define a cor de fundo do login */
+    background-color: lavender;       /* Define a cor de fundo do login */
     border-radius: 10px;           /* Rio da borda de 25px*/
     box-shadow: 0 0 5px #000000;   /* Sobreamnto com a cor preta*/
     margin: auto;                  /* Margem automatico */
@@ -92,13 +106,13 @@ nav.menu ul{                    /* Dentro de nav, no menu, em ul */
     list-style: none;           /* Tira a marcação referente a uma lista */
     position: absolute;         /* Permite que o bloco menu se movimente por o site completo */
     text-transform: uppercase;  /* Transforma as Letras e meiúscula */
-    top: 46px;                  /* Da uma distância do topo do site */
-    left: 1050px;                /* Da uma distânca da largura do site*/
+    top: 15%;                  /* Da uma distância do topo do site */
+    left: 78%;                /* Da uma distânca da largura do site*/
 }
 
 nav.menu li{                    /* Dentro de nav, no menu, em li */
     display: inline-block;      /* Permite que o menu fique em uma uica linha */
-    background-color: darkgray; /* Define a cor do fundo do menu */
+    background-color: lavender; /* Define a cor do fundo do menu */
     padding: 10px;              /* Define o temanho da margem interior */
     margin: 2px;                /* Define o temanho da margem externa */
 }
@@ -125,7 +139,7 @@ table.horario{
 table, td, th{
     text-align: center;
     margin: auto;
-    margin-top: 100px;
+    margin-top: 7%;
     border: 1px solid black;
     border-collapse: collapse;
 }
@@ -158,7 +172,7 @@ img#logoc{
     width: 55px;
     height: 55px;
 }
-img#logol{
+div#l_login img#logol{
     position: absolute;
     margin: auto;
     margin-top: 3px;
@@ -166,7 +180,7 @@ img#logol{
     width: 55px;
     height: 55px;
 }
-img#logo_r{
+img#r_logo{
     position: absolute;
     margin: auto;
     margin-top: 3px;
@@ -177,7 +191,9 @@ img#logo_r{
 /*------------------ Fim do Estilo das Imagens ----------------*/
 
 /*----------------------- Estilo responsivo -------------------*/
-/*@media screen end (min-width: 480px ){
-    
-}*/
+*@media (min-width: 480px ){
+    body{
+        background: red !important;
+    }
+}
 /*----------------------- Fim do Estilo responsivo -------------------*/

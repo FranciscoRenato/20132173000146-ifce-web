@@ -4,23 +4,60 @@
     <meta charset="UTF-8">
     <title> Login </title>
     <link rel="stylesheet" href="estilo_horario.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <script type="text/javascript">
+        function validaLogin() {
+			
+            if(document.login.matricula.value==""){
+                alert("Por favor digite a sua matrícula.");
+                document.login.matricula.focus();
+                return false;
+            }
+
+            if (document.login.Email.value=="" || document.login.Email.value.indexOf('@')==-1 || document.login.Email.value.indexOf('.')==-1){
+                alert("Por favor digite um E-mail válido.");
+                document.login.Email.focus();
+                return false;
+            }
+
+            if(document.login.senha.value.length < 8){
+                alert("Por favor digite uma senha de no mínimo 8 caracteres.");
+                document.login.senha.focus();
+                return false;
+            }
+        }
+    </script>
+
 </head>
 <body>
 
-<form class="login">
+<div id="l_login">
+    <form class="login" name="login" method="post" onsubmit="return validaLogin();">
 
-    <img id="logol" src="Imagens/IFCE-Taua-logo.png" alt="IFCE Tauá">
+        <img id="logol" src="Imagens/logo-ifce-taua-transparente.png" alt="IFCE Tauá">
 
-    <legend> Login </legend>
-    <br><br><br>
-    <p> Matrícula: <input type="number" name="matricula" size="20" maxlength="15" placeholder="Matricula"></p>
-    <p> E-mail: <input type="email" name="e-mail" size="23" placeholder="E-mail"></p>
-    <p> Senha: <input type="password" name="senha" size="16" maxlength="8" placeholder="8 digitos"></p>
+        <legend id="login"> Login </legend>
+        <br><br><br>
 
-    <a href="Tela_princial.html"><input type="button" name="submit" value="Enviar"></a>
-    <a href="recuperar_senha.html"><input type="button" name="botao_sequeci-senha" value="Esqueci a senha"></a>
+        <p> <label for="lMatricula"> Matrícula: </label> <input type="number" name="matricula" id="lMatricula" size="20" maxlength="15" placeholder="Matrícula"></p>
 
-</form>
+        <p> <label for="lEmail"> E-mail: </label> <input type="email" name="Email" id="lEmail" size="23" placeholder="E-mail"></p>
+
+        <p> <label for="lSenha"> Senha: </label> <input type="password" name="senha" id="lSenha" size="16" maxlength="16" placeholder="Minímo 8"></p>
+
+        <a href="Tela_princial.html"><input type="submit" name="submit" value="Enviar"></a>
+
+        <a href="recuperar_senha.html"><input type="button" name="botao_sequeci-senha" value="Esqueci a senha"></a>
+        
+        <p><label for="lCheck"><input type="checkbox" id="lCheck" name="chequin">Ainda não é cadastrado?</label></p>
+
+        <p id="obs">OBS: Aluno não é permitido cadastrar-se.</p>
+
+    </form>
+</div>
+
 
 </body>
 </html>

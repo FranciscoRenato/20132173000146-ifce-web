@@ -1,0 +1,26 @@
+body{
+    text-align: center;
+}
+
+div{
+    width: 600px;
+    height: 600px;
+    background: red;
+    box-shadow: 0 0 3px black;
+    text-align: center;
+    margin-left: 400px;
+}
+
+/*@media only screen and(max-width: 600px){
+    body{
+        background: blue;
+    }
+    div{
+        width: 200px;
+        height: 200px;
+        background: deeppink;
+        box-shadow: 0 0 3px black;
+        text-align: center;
+        margin-left: 400px;
+    }
+}*/

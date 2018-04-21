@@ -4,22 +4,29 @@
     <meta charset="UTF-8">
     <title> Recuperar senha </title>
     <link rel="stylesheet" href="estilo_horario.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 
-<form class="recuperar_senha">
+<div id="recuperar_senha">
+    <form class="recuperar_senha">
 
-    <img id="logo_r" src="Imagens/IFCE-Taua-logo.png" alt="IFCE Tauá">
+        <img id="r_logo" src="Imagens/logo-ifce-taua-transparente.png" alt="IFCE Tauá">
 
-    <legend id="r_senha"> Recuperar Senha </legend>
+        <legend id="r_senha"> Recuperar Senha </legend>
 
-    <br><br><br>
-    <p> Informe seu E-mail <input type="email" name="r_email" size="22" placeholder="E-mail" > </p>
-    <p> Informe sua matrícula <input type="number" name="r_matricula" placeholder="Matrícula"> </p>
-    <input type="button" name="botao" value="Enviar">
-    <a href="index.html"><input type="button" name="botao" value="Voltar"></a>
+        <br><br><br>
 
-</form>
+        <p> <label for="r_Email"> Informe seu E-mail: </label> <input type="email" name="rs_email" id="r_Email" size="22" placeholder="E-mail" > </p>
+
+        <p> <label for="r_Matricula"> Informe sua Matrícula: </label> <input type="number" name="rs_matricula" id="r_Matricula" placeholder="Matrícula"> </p>
+
+        <input type="button" name="botao" value="Enviar">
+
+        <a href="index.html"><input type="button" name="botao" value="Voltar"></a>
+
+    </form>
+</div>
 
 </body>
 </html>
