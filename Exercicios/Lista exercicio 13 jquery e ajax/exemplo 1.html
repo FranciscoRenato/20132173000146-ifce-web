@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> JQuery </title>
+    <script src="jquery-3.3.1.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $("#cookies").hide();
+
+            $("#corFundo").click(function () {
+                $("p").css("background", "red");
+            });
+
+            $("#mudaCorFundo").click(function () {
+                if("background == #ffffff" || "background == #00ff00"){
+                    $("p").css("background", "yellow");
+                }
+                if("background == yellow"){
+                    $("p").css("background", "#00ff00");
+                }
+            });
+
+            $("#buttonGet").click(function () {
+                $.ajax({
+                    method:'GET',
+                    url:'https://jsonplaceholder.typicode.com/posts/1',
+                    success: function(data) {
+                        console.log("O resultado da chamada GET é: ", data);
+                    }
+                });
+            });
+
+            $("#buttonPost").click(function () {
+                $.ajax({
+                    type:'POST',
+                    url:'https://jsonplaceholder.typicode.com/posts',
+                    data:{id:101, title:'foo', body:'bar', userld:1},
+                    success:function (data) {
+                        console.log("Resultado da resposta: ", data);
+                    }
+                });
+            });
+
+        });
+
+
+    </script>
+</head>
+<body>
+
+<p> Olá, bem vindo ao meu site <span>desapego.com.</span></p>
+<p id="cookies"> +++ Site com cookies configurados +++ </p>
+<p id="corFundo">Clique aqui para mudar para a cor vermelha.</p>
+<p id="mudaCorFundo">clique aqui para alterar entre a cor verde e amarelo</p>
+
+<button id="buttonGet">Clique me AJAX GET</button>
+<button id="buttonPost">Clique me AJAX POST</button>
+
+</body>
+</html>
+
+
+<!--     $(document).ready(function () {
+            $("#corFundo").click(function () {
+                $("body").css("background", "red");
+            });
+        });
+
+        $(document).ready(function () {
+           $("#mudaCorFundo").click(function () {
+             if("background == #ffffff" || "background == #00ff00"){
+                 $("body").css("background", "yellow");
+             } else if("background == yellow"){
+                 $("body").css("background", "#00ff00");
+               }
+           });
+        });
+
+        $(document).ready(function () {
+            $("button").click(function () {
+                $.ajax({
+                    type:'GET',
+                    url:'https://jsonplaceholder.typicode.com/posts/1',
+                    success: function(data) {
+                        console.log("O resultado da chamada GET é: ", data);
+                    }
+                });
+            });
+        });
+
+        $(document).ready(function () {
+            $("button").click(function () {
+                $.ajax({
+                    type:'POST',
+                    url:'https://jsonplaceholder.typicode.com/posts',
+                    data:{id:101, title:'foo', body:'bar', userld:1},
+                    success:function (data) {
+                        console.log("Resultado da resposta: ", data);
+                    }
+                });
+            });
+        });
+-->

@@ -57,7 +57,7 @@ div#l_login form.login{                        /* Dentro de form, no login */
     margin: auto;                  /* Margem automatico */
     margin-top: 180px;              /* Topo da margem 20px */
     margin-left: 530px;
-    margin-bottom: 1px;
+    margin-bottom: 30px;
 }
 
 form.cadastro{                     /* Dentro de form, no login */
