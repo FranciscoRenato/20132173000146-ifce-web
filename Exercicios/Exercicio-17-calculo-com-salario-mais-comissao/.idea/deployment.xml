@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData">
+    <serverData>
+      <paths name="Apache Local Web Serve">
+        <serverdata>
+          <mappings>
+            <mapping deploy="Exercicio-17-calculo-com-salario-mais-comissaoExercicio-17-calculo-com-salario-mais-comissao/" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>

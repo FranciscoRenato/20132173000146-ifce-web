@@ -1,0 +1,3 @@
+Primeira fraze do arquivo. 
+Segunda fraze do arquivo. 
+Terceira fraze do arquivo.
