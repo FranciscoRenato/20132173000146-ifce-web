@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title> Cadastrar Disciplina </title>
-    <link rel="stylesheet" href="estilo_horario.css">
+    <link rel="stylesheet" href="CSS/estilo_horario.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
@@ -24,7 +24,7 @@
         <p> <label for="cDisciplina"> Disciplina: </label> <input type="text" name="disciplina" id="cDisciplina" size="26" placeholder="Disciplina"></p>
 
         <p id="cDia"> <label for="cSemana"> Dia da semana: </label>
-            <select name="semana" id="cSemana">
+            <select name="diaSemana" id="cSemana">
                 <option value="segunda"> Segunda </option>
                 <option value="terca"> Terça </option>
                 <option value="quarta"> Quarta </option>
@@ -33,7 +33,7 @@
             </select>
         </p>
 
-        <p id="cHora"><label for="timeInicio"> Horário início: </label><input type="time" name="hora" id="timeInicio" placeholder="Horário"></p>
+        <p id="cHora"><label for="timeInicio"> Horário início: </label><input type="time" name="horaInicio" id="timeInicio" placeholder="Horário"></p>
         <p id="cHorafim"><label for="timeFim"> Horário Fim: </label><input type="time" name="horaFim" id="timeFim" placeholder="Horário"></p>
 
         <input type="button" name="button" value="Cadastrar Disciplina">
