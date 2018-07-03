@@ -1,53 +1,35 @@
-/* Estilo CSS do site de Horários*/
-@charset "UTF-8";
+    /* Estilo CSS do site de Horários*/
 
-/*------------------ Estilo do Body ----------------*/
+
+/*++++++++++++++++++++++++++++++++++++++++++++++++ Estilo do Body ++++++++++++++++++++++++++++++++++++++++++++++++++*/
 body{
     background: white;
 }
-/*------------------ Fim do Estilo do Body ----------------*/
 
 /*------------------ Estilo das Letras ----------------*/
-body h1#titulo{
+
+body h1#titulo{            /* Titulos */
     text-align: center;
     color: black;
+
 }
-body p#obs{
+body p#obs{                /* Parágrafos */
     font-size: 12px;
 }
-div#l_login form.login p{
-    font-weight: bold;
-}
-legend#cadatro{
-    position: absolute;
-    margin-top: 15px;
-    padding-left: 63px;
-    font-weight: bold;
-    font-size: 25px;
-}
-div#l_login legend#login{
-    position: absolute;
-    margin-top: 15px;
-    padding-left: 115px;
-    font-weight: bold;
-    font-size: 30px;
-}
-legend#r_senha{
-    position: absolute;
-    margin-top: 15px;
-    padding-left: 100px;
-    font-weight: bold;
-    font-size: 25px;
-}
-/*------------------ Fim do Estilo do Body ----------------*/
 
-/*------------------ Estilo do Formulário ----------------*/
+/*++++++++++++++++++++++++++++++++++++++++++ Fim do Estilo do Body +++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+/*++++++++++++++++++++++++++++++++++++++++ Início Estilo do Formulário +++++++++++++++++++++++++++++++++++++++++++++*/
 
 form{                     /* Dentro de form */
     text-align: center;   /* Define o formulario no centro */
 }
 
-div#l_login form.login{                        /* Dentro de form, no login */
+/*+++++++++++++++++++++++++++++++++++++++++ Fim do Estilo do Formulário ++++++++++++++++++++++++++++++++++++++++++++*/
+
+/*++++++++++++++++++++++++++++++++++++++++++++++ Estilo da tela de login +++++++++++++++++++++++++++++++++++++++++++*/
+
+div#div_login form.form_login{            /* Dentro de form, no login */
     position: absolute;
     width: 280px;                  /* Uma largura de 300px*/
     height: 290px;                 /* Uma altura de 100px*/
@@ -55,49 +37,198 @@ div#l_login form.login{                        /* Dentro de form, no login */
     border-radius: 10px;           /* Rio da borda de 25px*/
     box-shadow: 0 0 5px #000000;   /* Sobreamnto com a cor preta*/
     margin: auto;                  /* Margem automatico */
-    margin-top: 180px;              /* Topo da margem 20px */
-    margin-left: 530px;
+    margin-top: 16%;              /* Topo da margem 20px */
+    margin-left: 37%;
     margin-bottom: 30px;
 }
+/*------------------ Estilo da Legenda ----------------*/
+div#div_login form.form_login legend#legenda_login{
+    position: absolute;
+    margin-top: 15px;
+    padding-left: 115px;
+    font-weight: bold;
+    font-size: 30px;
+}
+/*------------------ Estilo da imagem ----------------*/
+div#div_login form.form_login img#logo_login{
+    position: absolute;
+    margin: auto;
+    margin-top: 3px;
+    margin-left: -135px;
+    width: 55px;
+    height: 55px;
+}
+/*------------------ Estilo das Letras ----------------*/
+div#div_login form.form_login p{
+    font-weight: bold;
+}
+/*++++++++++++++++++++++++++++++++++++++++ Fim do Estilo da tela de login ++++++++++++++++++++++++++++++++++++++++++*/
 
-form.cadastro{                     /* Dentro de form, no login */
+/*++++++++++++++++++++++++++++++++ Início do Estilo da tela de cadastro de disciplina ++++++++++++++++++++++++++++++*/
+div#div_cadastro_disciplina form.form_cadastro_disciplina{               /* Dentro de form, no login */
     position: absolute;
     width: 300px;                  /* Uma largura de 300px*/
-    height: 327px;                 /* Uma altura de 100px*/
+    height: 370px;                 /* Uma altura de 100px*/
     background-color: lavender;       /* Define a cor de fundo do login */
     border-radius: 10px;           /* Rio da borda de 25px*/
     box-shadow: 0 0 5px #000000;   /* Sobreamnto com a cor preta*/
     margin: auto;                  /* Margem automatico */
-    margin-top: 170px;              /* Topo da margem 20px */
-    margin-left: 500px;
+    margin-top: 13%;              /* Topo da margem 20px */
+    margin-left: 37%;
 }
-form.cadastro p#cHora{
+/*------------------ Estilo da hora inicio ----------------*/
+div#div_cadastro_disciplina form.form_cadastro_disciplina p#cHora{
     text-align: left;
     margin-left: 5px;
 }
-form.cadastro p#cHorafim{
+/*------------------ Estilo da hora fim ----------------*/
+div#div_cadastro_disciplina form.form_cadastro_disciplina p#cHorafim{
     text-align: left;
     margin-left: 5px;
 }
-
-form.cadastro p#cDia{
+/*------------------ Estilo do dia da semana ----------------*/
+div#div_cadastro_disciplina form.form_cadastro_disciplina p#cDia{
     margin-left: -108px;
 }
-
-div#recuperar_senha form.recuperar_senha{    /* Dentro de form, no login */
+/*------------------ Estilo da sala ----------------*/
+div#div_cadastro_disciplina form.form_cadastro_disciplina p#cSala{
+    margin-left: -80px;
+}
+/*------------------ Estilo da logo ----------------*/
+div#div_cadastro_disciplina img#logo_cadastro_disciplina{
     position: absolute;
-    width: 350px;                  /* Uma largura de 300px*/
-    height: 175px;                 /* Uma altura de 100px*/
+    margin: auto;
+    margin-top: 3px;
+    margin-left: -150px;
+    width: 55px;
+    height: 55px;
+}
+/*------------------ Estilo da legenda ----------------*/
+div#div_cadastro_disciplina legend#legenda_cadatro_discilina{
+    position: absolute;
+    margin-top: 17px;
+    padding-left: 60px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+/*++++++++++++++++++++++++++++++++ Fim do Estilo da tela de cadastro de disciplina +++++++++++++++++++++++++++++++++*/
+
+/*++++++++++++++++++++++++++++++++ Início do Estilo da tela de editar cadastro de disciplina ++++++++++++++++++++++++++++++*/
+div#editar_cadastro_disciplina form.edita_cadastro_disciplina{               /* Dentro de form, no login */
+    position: absolute;
+    width: 300px;                  /* Uma largura de 300px*/
+    height: 370px;                 /* Uma altura de 100px*/
     background-color: lavender;       /* Define a cor de fundo do login */
     border-radius: 10px;           /* Rio da borda de 25px*/
     box-shadow: 0 0 5px #000000;   /* Sobreamnto com a cor preta*/
     margin: auto;                  /* Margem automatico */
-    margin-top: 240px;              /* Topo da margem 20px */
-    margin-left: 500px;
+    margin-top: 13%;              /* Topo da margem 20px */
+    margin-left: 37%;
 }
-/*------------------ Fim do Estilo do Formulário ----------------*/
+/*------------------ Estilo da hora inicio ----------------*/
+div#editar_cadastro_disciplina form.edita_cadastro_disciplina p#eHora{
+    text-align: left;
+    margin-left: 5px;
+}
+/*------------------ Estilo da hora fim ----------------*/
+div#editar_cadastro_disciplina form.edita_cadastro_disciplina p#eHorafim{
+    text-align: left;
+    margin-left: 5px;
+}
+/*------------------ Estilo do dia da semana ----------------*/
+div#editar_cadastro_disciplina form.edita_cadastro_disciplina p#eDia{
+    margin-left: -108px;
+}
+/*------------------ Estilo da sala ----------------*/
+div#editar_cadastro_disciplina form.edita_cadastro_disciplina p#eSala{
+    margin-left: -80px;
+}
+/*------------------ Estilo da logo ----------------*/
+div#editar_cadastro_disciplina img#logo_editar_cadastro_disciplina{
+    position: absolute;
+    margin: auto;
+    margin-top: 3px;
+    margin-left: -150px;
+    width: 55px;
+    height: 55px;
+}
+/*------------------ Estilo da legenda ----------------*/
+div#editar_cadastro_disciplina legend#legenda_editar_cadatro_discilina{
+    position: absolute;
+    margin-top: 17px;
+    padding-left: 80px;
+    font-weight: bold;
+    font-size: 25px;
+}
 
-/*------------------------ Formatação do Menu -----------------------*/
+/*++++++++++++++++++++++++++++++++ Fim do Estilo da tela de editar cadastro de disciplina +++++++++++++++++++++++++++++++++*/
+
+/*+++++++++++++++++++++++++++++++++++ Início do Estilo da tela de recuperar senha ++++++++++++++++++++++++++++++++++*/
+div#esqueci_senha form.esqueci_senha{    /* Dentro de form, no login */
+    position: absolute;
+    width: 350px;                  /* Uma largura de 300px*/
+    height: 180px;                 /* Uma altura de 100px*/
+    background-color: lavender;       /* Define a cor de fundo do login */
+    border-radius: 10px;           /* Rio da borda de 25px*/
+    box-shadow: 0 0 5px #000000;   /* Sobreamnto com a cor preta*/
+    margin: auto;                  /* Margem automatico */
+    margin-top: 20%;              /* Topo da margem 20px */
+    margin-left: 35%;
+}
+/*------------------ Estilo da legenda ----------------*/
+div#esqueci_senha form.esqueci_senha legend#esqueci_senha_legenda{
+    position: absolute;
+    margin-top: 15px;
+    padding-left: 100px;
+    font-weight: bold;
+    font-size: 25px;
+}
+/*------------------ Estilo da logo ----------------*/
+div#esqueci_senha form.esqueci_senha img#esqueci_senha_logo{
+    position: absolute;
+    margin: auto;
+    margin-top: 3px;
+    margin-left: -175px;
+    width: 55px;
+    height: 55px;
+}
+/*+++++++++++++++++++++++++++++++++++++ Fim do Estilo da tela de recuperar senha +++++++++++++++++++++++++++++++++++*/
+
+/*+++++++++++++++++++++++++++++++++++ Início do Estilo da tela de cadastrar usuário ++++++++++++++++++++++++++++++++*/
+div#cadastro_usuario form.cadastro_usuario{        /* Dentro de form, no login */
+    position: absolute;
+    width: 280px;                  /* Uma largura de 300px*/
+    height: 220px;                 /* Uma altura de 100px*/
+    background-color: lavender;        /* Define a cor de fundo do login */
+    border-radius: 10px;           /* Rio da borda de 25px*/
+    box-shadow: 0 0 5px #000000;   /* Sobreamnto com a cor preta*/
+    margin: auto;                  /* Margem automatico */
+    margin-top: 20%;              /* Topo da margem 20px */
+    margin-left: 37%;
+    margin-bottom: 30px;
+}
+/*------------------ Estilo da legenda ----------------*/
+div#cadastro_usuario form.cadastro_usuario legend#legenda_cadastro_usuario{
+    position: absolute;
+    margin-top: 17px;
+    padding-left: 55px;
+    font-weight: bold;
+    font-size: 25px;
+}
+/*------------------ Estilo da logo ----------------*/
+div#cadastro_usuario form.cadastro_usuario img#logo_cadastro_usuario{
+    position: absolute;
+    margin: auto;
+    margin-top: 3px;
+    margin-left: -137px;
+    width: 55px;
+    height: 55px;
+}
+
+/*++++++++++++++++++++++++++++++++++++ Fim do Estilo da tela de cadastrar usuário ++++++++++++++++++++++++++++++++++*/
+
+/*+++++++++++++++++++++++++++++++++++++++++ Início da Formatação do Menu +++++++++++++++++++++++++++++++++++++++++++*/
 nav.menu {                      /* Dentro de nav, no menu */
     display: block;             /* Transforma o menu em um bloco */
 }
@@ -106,8 +237,8 @@ nav.menu ul{                    /* Dentro de nav, no menu, em ul */
     list-style: none;           /* Tira a marcação referente a uma lista */
     position: absolute;         /* Permite que o bloco menu se movimente por o site completo */
     text-transform: uppercase;  /* Transforma as Letras e meiúscula */
-    top: 15%;                  /* Da uma distância do topo do site */
-    left: 78%;                /* Da uma distânca da largura do site*/
+    top: 10%;                  /* Da uma distância do topo do site */
+    left: 75%;                /* Da uma distânca da largura do site*/
 }
 
 nav.menu li{                    /* Dentro de nav, no menu, em li */
@@ -129,34 +260,55 @@ nav.menu a:hover{               /* Dentro de nav, no menu, em a, transissão apa
 nav.menu h1{                    /* Dentro de nav, no menu, em h1 */
     display: none;              /* Texto h1 invisível no site */
 }
-/*----------------------- Fim da formatação do Menu -------------------*/
+/*+++++++++++++++++++++++++++++++++++++++++ Fim da Formatação do Menu +++++++++++++++++++++++++++++++++++++++++++++*/
 
-/*----------------------- Estilo da tabela -------------------*/
-table.horario{
-    width: 50%;
+/*++++++++++++++++++++++++++++++++++++++++++++++ Estilo da tabela +++++++++++++++++++++++++++++++++++++++++++++++++*/
+table.tabela_horario{
+    width: 100%;
 }
 
 table, td, th{
     text-align: center;
     margin: auto;
     margin-top: 7%;
-    border: 1px solid black;
+   /* border: 1px solid black;*/
+    /*padding: 5px;*/
     border-collapse: collapse;
 }
 
- td{
-    background-color: white  !important;
+td{
+    background-color: white;
+    text-align: center;
+    font-size: 17px;
+    border-bottom: 1px solid #ddd;
+    padding: 8px;
 }
-
 
 th{
+    text-align: center;
+    background-color: #E8E8E8;
     height: 50px;
+    font-size: 20px;
+    padding: 3px;
+    border-bottom: 1px solid #ddd;
 }
 
-/*----------------------- Fim do Estilo da tabela -------------------*/
+p#botao_tabela_opcao a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 6px 4px;
+    border: 1px solid #ccc;
+    background-color:  #f2f2f2;
+    color: #333;
+    font: 15px arial, sans-serif;
+}
+p#botao_tabela_opcao a:hover{
+    border-color: #aaa;
+}
+/*++++++++++++++++++++++++++++++++++++++++++++++ Estilo da tabela +++++++++++++++++++++++++++++++++++++++++++++++++*/
 
 /*------------------ Estilo das Images ----------------*/
-img#logo{
+div#div_logo_principal img#logo_principal{
     position: absolute;
     margin: auto;
     margin-top: -23px;
@@ -164,34 +316,10 @@ img#logo{
     width: 110px;
     height: 104px;
 }
-img#logoc{
-    position: absolute;
-    margin: auto;
-    margin-top: 3px;
-    margin-left: -146px;
-    width: 55px;
-    height: 55px;
-}
-div#l_login img#logol{
-    position: absolute;
-    margin: auto;
-    margin-top: 3px;
-    margin-left: -135px;
-    width: 55px;
-    height: 55px;
-}
-img#r_logo{
-    position: absolute;
-    margin: auto;
-    margin-top: 3px;
-    margin-left: -170px;
-    width: 55px;
-    height: 55px;
-}
 /*------------------ Fim do Estilo das Imagens ----------------*/
 
 /*----------------------- Estilo responsivo -------------------*/
-*@media (min-width: 480px ){
+*@media only(max-width: 480px ){
     body{
         background: red !important;
     }

@@ -4,13 +4,14 @@
         <meta charset="UTF-8">                                  <!-- Inicia a tag meta para identificar os caracteres ASCII BR -->
         <title>Web formulario</title>                           <!-- Defini o titulo do site -->
         <link rel="stylesheet" type="text/css" href="Estilo%20formulario.css">
+        <script type="text/javascript" src="Dados/arquivoJS.js"> </script>
     </head>                                                     <!-- Finaliza o campo head -->
     <body>                                                      <!-- Inicia p campo bady -->
     <!-- Exemplo de um formulario HTML -->
 
         <h1 style="text-align: center; "> Formulário </h1> <br>                  <!-- Cabecalho do formulario -->
 
-        <form action="/Dados" method="get">                     <!-- Inicio do formulario com acao e metodo -->
+        <form action="" method="post" onsubmit="return alerta();">                     <!-- Inicio do formulario com acao e metodo -->
 
             Primeiro Nome: <br>                                 <!-- Exibe Primeiro Nome na pagina do site -->
             <input type="text" name="primeironome"> <br><br>    <!-- Recebe o texto com o nome -->

@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: 29-Maio-2018 às 19:04
+-- Generation Time: 08-Jun-2018 às 01:36
 -- Versão do servidor: 10.1.31-MariaDB
 -- PHP Version: 7.2.4
 
@@ -25,11 +25,11 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `horarios-das-disciplinas`
+-- Estrutura da tabela `horarios_das_disciplinas`
 --
 
-CREATE TABLE `horarios-das-disciplinas` (
-  `id` int(50) NOT NULL,
+CREATE TABLE `horarios_das_disciplinas` (
+  `id` int(11) NOT NULL,
   `curso` varchar(50) NOT NULL,
   `professor` varchar(50) NOT NULL,
   `disciplina` varchar(50) NOT NULL,
@@ -46,14 +46,29 @@ CREATE TABLE `horarios-das-disciplinas` (
 
 CREATE TABLE `login` (
   `id` int(11) NOT NULL,
-  `matricula` varchar(20) NOT NULL,
-  `email` varchar(20) NOT NULL,
-  `senha` varchar(20) NOT NULL
+  `matricula` varchar(50) NOT NULL,
+  `email` varchar(50) NOT NULL,
+  `senha` varchar(50) NOT NULL,
+  `senha_md5` varchar(60) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Extraindo dados da tabela `login`
+--
+
+INSERT INTO `login` (`id`, `matricula`, `email`, `senha`, `senha_md5`) VALUES
+(1, '20132173000146', 'renatolorencosousa@gmail.com', 'Renato12345', '968ee9cc6b714906fb9681e6c3561957'),
+(2, '20132173000146', 'renatosousahiphop@hotmail.com', '12345678', '550e1bafe077ff0b0b67f4e32f29d751');
 
 --
 -- Indexes for dumped tables
 --
+
+--
+-- Indexes for table `horarios_das_disciplinas`
+--
+ALTER TABLE `horarios_das_disciplinas`
+  ADD PRIMARY KEY (`id`);
 
 --
 -- Indexes for table `login`
@@ -66,10 +81,16 @@ ALTER TABLE `login`
 --
 
 --
+-- AUTO_INCREMENT for table `horarios_das_disciplinas`
+--
+ALTER TABLE `horarios_das_disciplinas`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+
+--
 -- AUTO_INCREMENT for table `login`
 --
 ALTER TABLE `login`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

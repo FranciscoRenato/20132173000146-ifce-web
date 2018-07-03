@@ -24,75 +24,43 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="58" column="61" lean-forward="false" selection-start-line="58" selection-start-column="61" selection-end-line="58" selection-end-column="61" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="conexao_login.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PHP/conexao_login.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="24" column="35" lean-forward="true" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+            <state relative-caret-position="147">
+              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding>
-                <marker date="1527789035651" expanded="true" signature="431:476" ph="SELECT id, m... login" />
-                <marker date="1527789035651" expanded="true" signature="905:1008" ph="INSERT INTO login... " />
+                <marker date="1530184839867" expanded="true" signature="995:1059" ph="SELECT senha... login" />
+                <marker date="1530184839867" expanded="true" signature="995:1077" ph="SELECT id, s... login" />
+                <marker date="1530184839867" expanded="true" signature="995:1098" ph="SELECT id, s... login" />
+                <marker date="1530184839867" expanded="true" signature="2756:2795" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="valida_formularios.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PHP/valida_formularios.php">
+      <file leaf-file-name="cadastrar_usuario.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PHP/cadastrar_usuario.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1529945371386" expanded="true" signature="384:514" ph="INSERT INTO login... " />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sistema_horario.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BD/sistema_horario.sql">
+      <file leaf-file-name="Tela_principal.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Tela_principal.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="24" column="59" lean-forward="false" selection-start-line="24" selection-start-column="59" selection-end-line="24" selection-end-column="59" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Tela_princial.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Tela_princial.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cadastro.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cadastro.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="903">
-              <caret line="43" column="7" lean-forward="false" selection-start-line="43" selection-start-column="7" selection-end-line="43" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="recuperar_senha.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/recuperar_senha.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="6" column="74" lean-forward="false" selection-start-line="6" selection-start-column="74" selection-end-line="6" selection-end-column="74" />
-              <folding />
+            <state relative-caret-position="840">
+              <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+              <folding>
+                <marker date="1529946581436" expanded="true" signature="1323:1943" ph="..." />
+                <marker date="1529946581436" expanded="true" signature="2274:2312" ph="SELECT * FRO... horarios_das_disciplinas" />
+                <marker date="1529946581436" expanded="true" signature="2399:2874" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -100,8 +68,48 @@
       <file leaf-file-name="estilo_horario.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CSS/estilo_horario.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="3885">
+              <caret line="185" column="14" lean-forward="false" selection-start-line="185" selection-start-column="14" selection-end-line="185" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="recuperar_senha.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PHP/recuperar_senha.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="693">
+              <caret line="38" column="57" lean-forward="false" selection-start-line="38" selection-start-column="57" selection-end-line="38" selection-end-column="57" />
+              <folding>
+                <marker date="1530034308816" expanded="true" signature="523:598" ph="SELECT senha... login" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cadastrar_disciplina.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PHP/cadastrar_disciplina.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="42" column="17" lean-forward="false" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
+              <folding>
+                <marker date="1530317741607" expanded="true" signature="1342:1379" ph="SELECT * FRO... horario_das_disciplinas" />
+                <marker date="1530317741607" expanded="true" signature="1342:1392" ph="SELECT * FRO... horario_das_disciplinas" />
+                <marker date="1530317741607" expanded="true" signature="1342:1472" ph="SELECT * FRO... horario_das_disciplinas" />
+                <marker date="1530317741607" expanded="true" signature="1342:1473" ph="SELECT * FRO... horario_das_disciplinas" />
+                <marker date="1530317741607" expanded="true" signature="1342:1483" ph="SELECT * FRO... horario_das_disciplinas" />
+                <marker date="1530317741607" expanded="true" signature="1595:1761" ph="..." />
+                <marker date="1530317741607" expanded="true" signature="1792:2018" ph="INSERT INTO horarios_das_disciplinas... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cadastro_disciplina.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cadastro_disciplina.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="535">
+              <caret line="89" column="41" lean-forward="false" selection-start-line="89" selection-start-column="41" selection-end-line="89" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -114,6 +122,7 @@
       <list>
         <option value="CSS File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -128,12 +137,29 @@
         <option value="$PROJECT_DIR$/login.html" />
         <option value="$PROJECT_DIR$/Tela_inicial.html" />
         <option value="$PROJECT_DIR$/estilo_horario.css" />
-        <option value="$PROJECT_DIR$/recuperar_senha.html" />
         <option value="$PROJECT_DIR$/Tela_princial.html" />
-        <option value="$PROJECT_DIR$/cadastro.html" />
-        <option value="$PROJECT_DIR$/PHP/valida_formularios.php" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/PHP/conexao_login.php" />
+        <option value="$PROJECT_DIR$/BD/sistema_horario.sql" />
+        <option value="$PROJECT_DIR$/PHP/conexao.php" />
+        <option value="$PROJECT_DIR$/cadastro.html" />
+        <option value="$PROJECT_DIR$/recuperar_senha.html" />
+        <option value="$PROJECT_DIR$/Tela_principal.html" />
+        <option value="$PROJECT_DIR$/sair.php" />
+        <option value="$PROJECT_DIR$/protecao.php" />
+        <option value="$PROJECT_DIR$/PHP/sair.php" />
+        <option value="$PROJECT_DIR$/PHP/protecao.php" />
+        <option value="$PROJECT_DIR$/esqueci_senha.php" />
+        <option value="$PROJECT_DIR$/cadastro_usuario.php" />
+        <option value="$PROJECT_DIR$/PHP/valida_formularios.php" />
+        <option value="$PROJECT_DIR$/JS/AquivosJS.js" />
+        <option value="$PROJECT_DIR$/PHP/cadastrar_usuario.php" />
+        <option value="$PROJECT_DIR$/cadastro_disciplina.php" />
+        <option value="$PROJECT_DIR$/Tela_principal.php" />
+        <option value="$PROJECT_DIR$/PHP/recuperar_senha.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/CSS/estilo_horario.css" />
+        <option value="$PROJECT_DIR$/PHP/cadastrar_disciplina.php" />
       </list>
     </option>
   </component>
@@ -148,11 +174,14 @@
       <server host="localhost" id="709dd508-acff-4941-a6b3-eeebf3a818e4" name="Apache Local Web Server" />
     </servers>
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="120" />
-    <option name="y" value="-8" />
-    <option name="width" value="1034" />
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP">
+    <include_path>
+      <path value="C:\xampp\htdocs\Curso php\Projeto sistema de horarios" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="676" />
+    <option name="width" value="697" />
     <option name="height" value="735" />
   </component>
   <component name="ProjectView">
@@ -170,18 +199,15 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="Projeto sistema de horarios" type="b2602c69:ProjectViewProjectNode" />
               <item name="Projeto sistema de horarios" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Projeto sistema de horarios" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Projeto sistema de horarios" type="462c0819:PsiDirectoryNode" />
-              <item name="BD" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Projeto sistema de horarios" type="b2602c69:ProjectViewProjectNode" />
@@ -193,13 +219,15 @@
               <item name="Projeto sistema de horarios" type="462c0819:PsiDirectoryNode" />
               <item name="PHP" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Projeto sistema de horarios" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -207,13 +235,19 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/Renato Sousa/Trabalhos de Telemática do IFCE Renato/6ºSemestre de Telemática/Projetos de Sistema Web/20132173000146-ifce-web/Exercicios/Exercicio 7 formulario" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="settings.editor.selected.configurable" value="SQL Resolution Scopes" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\Curso php\Projeto sistema de horarios\PHP" />
+      <recent name="C:\xampp\htdocs\Curso php\Projeto sistema de horarios" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -373,16 +407,46 @@
       <workItem from="1527622443311" duration="1342000" />
       <workItem from="1527636518828" duration="1740000" />
       <workItem from="1527779463327" duration="5681000" />
-      <workItem from="1527791150892" duration="518000" />
+      <workItem from="1527791150892" duration="936000" />
+      <workItem from="1527801960264" duration="7793000" />
+      <workItem from="1527957570187" duration="9621000" />
+      <workItem from="1528128665052" duration="3292000" />
+      <workItem from="1528155885835" duration="620000" />
+      <workItem from="1528215460847" duration="4971000" />
+      <workItem from="1528236985618" duration="13229000" />
+      <workItem from="1528288767658" duration="1860000" />
+      <workItem from="1528374080954" duration="1864000" />
+      <workItem from="1528405547641" duration="6575000" />
+      <workItem from="1528457293516" duration="8172000" />
+      <workItem from="1528546511794" duration="1921000" />
+      <workItem from="1528893312947" duration="1823000" />
+      <workItem from="1528913537608" duration="1691000" />
+      <workItem from="1528915311561" duration="3805000" />
+      <workItem from="1528979284795" duration="955000" />
+      <workItem from="1529059995167" duration="2471000" />
+      <workItem from="1529320868963" duration="769000" />
+      <workItem from="1529338539663" duration="5674000" />
+      <workItem from="1529357299517" duration="10920000" />
+      <workItem from="1529409387349" duration="789000" />
+      <workItem from="1529425321882" duration="5225000" />
+      <workItem from="1529442590040" duration="7633000" />
+      <workItem from="1529494042978" duration="7393000" />
+      <workItem from="1529534170871" duration="2084000" />
+      <workItem from="1529705768135" duration="715000" />
+      <workItem from="1529860734714" duration="1524000" />
+      <workItem from="1529944669960" duration="4356000" />
+      <workItem from="1529974894418" duration="889000" />
+      <workItem from="1530030488825" duration="3736000" />
+      <workItem from="1530183736135" duration="2665000" />
+      <workItem from="1530316336588" duration="1983000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98120000" />
+    <option name="totallyTimeSpent" value="225556000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -391,24 +455,25 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13858268" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.03343949" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17203514" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14787701" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -424,67 +489,27 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Tela_princial.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="55" lean-forward="false" selection-start-line="6" selection-start-column="55" selection-end-line="6" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cadastro.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="26" column="30" lean-forward="false" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Banco de Dados/sistema_horario.sql" />
-    <entry file="file://$PROJECT_DIR$/recuperar_senha.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="33" lean-forward="false" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CSS/estilo_horario.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PHP/conexao_login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="24" column="2" lean-forward="true" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="2" />
-          <folding>
-            <marker date="1527789035651" expanded="true" signature="431:476" ph="SELECT id, m... login" />
-            <marker date="1527789035651" expanded="true" signature="905:1008" ph="INSERT INTO login... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
           <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-          <folding />
+          <folding>
+            <marker date="1530184839867" expanded="true" signature="995:1059" ph="SELECT senha... login" />
+            <marker date="1530184839867" expanded="true" signature="995:1077" ph="SELECT id, s... login" />
+            <marker date="1530184839867" expanded="true" signature="995:1098" ph="SELECT id, s... login" />
+            <marker date="1530184839867" expanded="true" signature="2756:2795" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tela_princial.html">
+    <entry file="file://$PROJECT_DIR$/Tela_principal.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="6" column="55" lean-forward="false" selection-start-line="6" selection-start-column="55" selection-end-line="6" selection-end-column="55" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cadastro.html">
+    <entry file="file://$PROJECT_DIR$/cadastro_disciplina.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="546">
           <caret line="26" column="30" lean-forward="false" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
@@ -493,11 +518,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Banco de Dados/sistema_horario.sql" />
-    <entry file="file://$PROJECT_DIR$/recuperar_senha.html">
+    <entry file="file://$PROJECT_DIR$/esqueci_senha.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="5" column="33" lean-forward="false" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="55" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -505,39 +529,38 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PHP/conexao_login.php">
+    <entry file="file://$PROJECT_DIR$/PHP/conexao.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="17" column="43" lean-forward="false" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding>
-            <marker date="1527789035651" expanded="true" signature="431:476" ph="SELECT id, m... login" />
-            <marker date="1527789035651" expanded="true" signature="905:1008" ph="INSERT INTO login... " />
+            <marker date="1530184839867" expanded="true" signature="995:1059" ph="SELECT senha... login" />
+            <marker date="1530184839867" expanded="true" signature="995:1077" ph="SELECT id, s... login" />
+            <marker date="1530184839867" expanded="true" signature="995:1098" ph="SELECT id, s... login" />
+            <marker date="1530184839867" expanded="true" signature="2756:2795" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Banco de Dados/Banco-Horarios.sql" />
-    <entry file="file://$PROJECT_DIR$/Tela_princial.html">
+    <entry file="file://$PROJECT_DIR$/Tela_principal.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="6" column="55" lean-forward="false" selection-start-line="6" selection-start-column="55" selection-end-line="6" selection-end-column="55" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cadastro.html">
+    <entry file="file://$PROJECT_DIR$/cadastro_disciplina.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="5" column="55" lean-forward="false" selection-start-line="5" selection-start-column="55" selection-end-line="5" selection-end-column="55" />
@@ -545,43 +568,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/recuperar_senha.html">
+    <entry file="file://$PROJECT_DIR$/esqueci_senha.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="5" column="33" lean-forward="false" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="55" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PHP/conexao_login.php">
+    <entry file="file://$PROJECT_DIR$/PHP/conexao.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="9" column="47" lean-forward="false" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding>
-            <marker date="1527789035651" expanded="true" signature="431:476" ph="SELECT id, m... login" />
-            <marker date="1527789035651" expanded="true" signature="905:1008" ph="INSERT INTO login... " />
+            <marker date="1530184839867" expanded="true" signature="995:1059" ph="SELECT senha... login" />
+            <marker date="1530184839867" expanded="true" signature="995:1077" ph="SELECT id, s... login" />
+            <marker date="1530184839867" expanded="true" signature="995:1098" ph="SELECT id, s... login" />
+            <marker date="1530184839867" expanded="true" signature="2756:2795" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Banco de Dados/Banco-Horarios.sql" />
-    <entry file="file://$PROJECT_DIR$/Tela_princial.html">
+    <entry file="file://$PROJECT_DIR$/Tela_principal.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="6" column="55" lean-forward="false" selection-start-line="6" selection-start-column="55" selection-end-line="6" selection-end-column="55" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cadastro.html">
+    <entry file="file://$PROJECT_DIR$/cadastro_disciplina.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="5" column="55" lean-forward="false" selection-start-line="5" selection-start-column="55" selection-end-line="5" selection-end-column="55" />
@@ -589,43 +611,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/recuperar_senha.html">
+    <entry file="file://$PROJECT_DIR$/esqueci_senha.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="5" column="33" lean-forward="false" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="55" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PHP/conexao_login.php">
+    <entry file="file://$PROJECT_DIR$/PHP/conexao.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="9" column="44" lean-forward="false" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding>
-            <marker date="1527789035651" expanded="true" signature="431:476" ph="SELECT id, m... login" />
-            <marker date="1527789035651" expanded="true" signature="905:1008" ph="INSERT INTO login... " />
+            <marker date="1530184839867" expanded="true" signature="995:1059" ph="SELECT senha... login" />
+            <marker date="1530184839867" expanded="true" signature="995:1077" ph="SELECT id, s... login" />
+            <marker date="1530184839867" expanded="true" signature="995:1098" ph="SELECT id, s... login" />
+            <marker date="1530184839867" expanded="true" signature="2756:2795" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Banco de Dados/Banco-Horarios.sql" />
-    <entry file="file://$PROJECT_DIR$/Tela_princial.html">
+    <entry file="file://$PROJECT_DIR$/Tela_principal.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="6" column="55" lean-forward="false" selection-start-line="6" selection-start-column="55" selection-end-line="6" selection-end-column="55" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cadastro.html">
+    <entry file="file://$PROJECT_DIR$/cadastro_disciplina.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="5" column="55" lean-forward="false" selection-start-line="5" selection-start-column="55" selection-end-line="5" selection-end-column="55" />
@@ -633,42 +654,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/recuperar_senha.html">
+    <entry file="file://$PROJECT_DIR$/esqueci_senha.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="5" column="33" lean-forward="false" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="55" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PHP/conexao_login.php">
+    <entry file="file://$PROJECT_DIR$/PHP/conexao.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="9" column="44" lean-forward="false" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1527789035651" expanded="true" signature="431:476" ph="SELECT id, m... login" />
-            <marker date="1527789035651" expanded="true" signature="905:1008" ph="INSERT INTO login... " />
+            <marker date="1530184839867" expanded="true" signature="995:1059" ph="SELECT senha... login" />
+            <marker date="1530184839867" expanded="true" signature="995:1077" ph="SELECT id, s... login" />
+            <marker date="1530184839867" expanded="true" signature="995:1098" ph="SELECT id, s... login" />
+            <marker date="1530184839867" expanded="true" signature="2756:2795" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tela_princial.html">
+    <entry file="file://$PROJECT_DIR$/Tela_principal.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cadastro.html">
+    <entry file="file://$PROJECT_DIR$/cadastro_disciplina.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="735">
           <caret line="35" column="44" lean-forward="false" selection-start-line="35" selection-start-column="44" selection-end-line="35" selection-end-column="44" />
@@ -676,31 +696,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/recuperar_senha.html">
+    <entry file="file://$PROJECT_DIR$/esqueci_senha.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="10" column="24" lean-forward="false" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1530184839867" expanded="true" signature="995:1059" ph="SELECT senha... login" />
+            <marker date="1530184839867" expanded="true" signature="995:1077" ph="SELECT id, s... login" />
+            <marker date="1530184839867" expanded="true" signature="995:1098" ph="SELECT id, s... login" />
+            <marker date="1530184839867" expanded="true" signature="2756:2795" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tela_princial.html">
+    <entry file="file://$PROJECT_DIR$/Tela_principal.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cadastro.html">
+    <entry file="file://$PROJECT_DIR$/cadastro_disciplina.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="735">
           <caret line="35" column="44" lean-forward="false" selection-start-line="35" selection-start-column="44" selection-end-line="35" selection-end-column="44" />
@@ -708,11 +731,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/recuperar_senha.html">
+    <entry file="file://$PROJECT_DIR$/esqueci_senha.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="10" column="24" lean-forward="false" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -720,70 +742,130 @@
     <entry file="file://$PROJECT_DIR$/estilo_horario.css" />
     <entry file="file://$PROJECT_DIR$/Banco de Dados/Banco-Horarios.sql" />
     <entry file="file://$PROJECT_DIR$/Banco de Dados/sistema_horario.sql" />
-    <entry file="file://$PROJECT_DIR$/Tela_princial.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CSS/estilo_horario.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recuperar_senha.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="74" lean-forward="false" selection-start-line="6" selection-start-column="74" selection-end-line="6" selection-end-column="74" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cadastro.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="903">
-          <caret line="43" column="7" lean-forward="false" selection-start-line="43" selection-start-column="7" selection-end-line="43" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PHP/valida_formularios.php">
+    <entry file="file://$PROJECT_DIR$/PHP/sair.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
+          <caret line="8" column="45" lean-forward="false" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BD/sistema_horario.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="24" column="59" lean-forward="false" selection-start-line="24" selection-start-column="59" selection-end-line="24" selection-end-column="59" />
+        <state relative-caret-position="1428">
+          <caret line="68" column="2" lean-forward="false" selection-start-line="66" selection-start-column="2" selection-end-line="68" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/esqueci_senha.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS/AquivosJS.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cadastro_usuario.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="20" column="110" lean-forward="false" selection-start-line="20" selection-start-column="110" selection-end-line="20" selection-end-column="110" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP/conexao.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="9" column="22" lean-forward="false" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="71" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PHP/conexao_login.php">
+    <entry file="file://$PROJECT_DIR$/PHP/protecao.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="24" column="35" lean-forward="true" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+        <state relative-caret-position="357">
+          <caret line="22" column="2" lean-forward="false" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tela_principal.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
           <folding>
-            <marker date="1527789035651" expanded="true" signature="431:476" ph="SELECT id, m... login" />
-            <marker date="1527789035651" expanded="true" signature="905:1008" ph="INSERT INTO login... " />
+            <marker date="1529946581436" expanded="true" signature="1323:1943" ph="..." />
+            <marker date="1529946581436" expanded="true" signature="2274:2312" ph="SELECT * FRO... horarios_das_disciplinas" />
+            <marker date="1529946581436" expanded="true" signature="2399:2874" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/PHP/cadastrar_usuario.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="58" column="61" lean-forward="false" selection-start-line="58" selection-start-column="61" selection-end-line="58" selection-end-column="61" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1529945371386" expanded="true" signature="384:514" ph="INSERT INTO login... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP/recuperar_senha.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="693">
+          <caret line="38" column="57" lean-forward="false" selection-start-line="38" selection-start-column="57" selection-end-line="38" selection-end-column="57" />
+          <folding>
+            <marker date="1530034308816" expanded="true" signature="523:598" ph="SELECT senha... login" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cadastro_disciplina.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="535">
+          <caret line="89" column="41" lean-forward="false" selection-start-line="89" selection-start-column="41" selection-end-line="89" selection-end-column="41" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <marker date="1530184839867" expanded="true" signature="995:1059" ph="SELECT senha... login" />
+            <marker date="1530184839867" expanded="true" signature="995:1077" ph="SELECT id, s... login" />
+            <marker date="1530184839867" expanded="true" signature="995:1098" ph="SELECT id, s... login" />
+            <marker date="1530184839867" expanded="true" signature="2756:2795" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS/estilo_horario.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3885">
+          <caret line="185" column="14" lean-forward="false" selection-start-line="185" selection-start-column="14" selection-end-line="185" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP/cadastrar_disciplina.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="42" column="17" lean-forward="false" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
+          <folding>
+            <marker date="1530317741607" expanded="true" signature="1342:1379" ph="SELECT * FRO... horario_das_disciplinas" />
+            <marker date="1530317741607" expanded="true" signature="1342:1392" ph="SELECT * FRO... horario_das_disciplinas" />
+            <marker date="1530317741607" expanded="true" signature="1342:1472" ph="SELECT * FRO... horario_das_disciplinas" />
+            <marker date="1530317741607" expanded="true" signature="1342:1473" ph="SELECT * FRO... horario_das_disciplinas" />
+            <marker date="1530317741607" expanded="true" signature="1342:1483" ph="SELECT * FRO... horario_das_disciplinas" />
+            <marker date="1530317741607" expanded="true" signature="1595:1761" ph="..." />
+            <marker date="1530317741607" expanded="true" signature="1792:2018" ph="INSERT INTO horarios_das_disciplinas... " />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -868,6 +950,17 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.124533" />
               </list>
             </option>
           </splitter-proportions>
