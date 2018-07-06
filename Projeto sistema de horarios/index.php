@@ -24,20 +24,10 @@ global $msg;	//Variavel global de mensagem
 
             $erro[] = "Usuário não exixtênte!";
             echo "<script> alert('$erro[0]'); location.href='index.php'</script>"; //Direciona para a tela principal
-            //echo $dado['id'];
-            //echo "$_SESSION[matricula];";
-            //echo "$dado[email];";
-            //echo "$_SESSION[senha];";
+
         } else {
-            //echo "$dado[id];";
-            //echo "$_SESSION[matricula];";
-            //echo "$_SESSION[email];";
-            //echo "$_SESSION[senha];";
             if($dado['senha_md5'] == $_SESSION['senha']){  //verifica se a senha digitada pelo usuário é igual a senha do banco de dados
-              //  echo "$dado[id];";
-               // echo "$dado[matricula];";
-               // echo "$_SESSION[email];";
-                //echo "$_SESSION[senha];";
+
                 $_SESSION['login'] = $dado['id'];  //Armazena o ID do usuário na sessão 
 
             } else {
@@ -87,13 +77,6 @@ global $msg;	//Variavel global de mensagem
 
 </head>  <!-- Fim do head -->
 <body>  <!-- Início do bady -->
-
-<!--<?php // Início do PHP-->
-//if($erro > 0)
- //foreach ($erro as $msg){ // Para cada erro mostra as mensagens
-   //echo "<p>$msg</p>";    // Mensagens
-// }
-//<!--?>-->   <!-- Fim do PHP -->
 
 <div id="div_login"> <!-- DIV da tela de login -->
 

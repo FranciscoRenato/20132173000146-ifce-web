@@ -19,5 +19,5 @@
 		die("Error: " . mysqli_error($conexao));
 	}
 
-
+	mysql_close();
 ?>

@@ -20,11 +20,10 @@
     $qtd_usuario = $insert->num_rows;
 
     if($qtd_usuario > 0){
-        $error[] = "O usuário já etsá cadastrado.";
-         echo "<script> alert('$error[0]'); </script>";
-        // echo "<script> location.href=Location: ../cadastro_usuario.php</script>";
-        echo '<script> location.href="../cadastro_usuario.php"; </script>';
-        //header('Location: ../cadastro_usuario.php');
+        
+        $error[] = "O usuário já etsá cadastrado."; 
+        echo "<script> alert('$error[0]'); location.href='../cadastro_usuario.php'; </script>";     
+
     }else{
         
         $sql = "INSERT INTO login (id, matricula, email, senha, senha_md5) 
@@ -33,12 +32,15 @@
         $insert = mysqli_query($conexao, $sql);    
 
         if($insert){
+        
             $error[] = "Usuário cadastrado com sucesso.";
             echo "<script> alert('$error[0]'); location.href='../index.php'; </script>";
-            //header('Location: ../index.php');
+        
         } else {
+        
             $error[]="Erro ao cadastrar!";
             echo "<script> alert('$error[0]'); location.href='../cadastro_usuario.php' </script>";
+        
         }
 }
     mysqli_close($conexao);

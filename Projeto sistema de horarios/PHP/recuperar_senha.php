@@ -35,12 +35,12 @@
 
             if (mail($email, "Sua senha", "Sua senha é: " . "$dado[senha]")){
 
-                //echo "$result";
-               // $erro[] = "Senha enviada com sucesso.";
-                //echo "<script> alert('$erro[0]'); location.href='../index.php'; </script>";
                 header('Location: ../index.php');
+   
             } else {
+   
                 echo "Erro ao enviar";
+   
             }
         }
 

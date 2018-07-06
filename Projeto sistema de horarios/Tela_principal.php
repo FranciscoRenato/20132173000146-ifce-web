@@ -41,7 +41,7 @@
 
         <?php
 
-      //  include ("PHP/conexao.php");
+
 
         echo "<table class=tabela_horario>";
             //<!-- Topo da tabela -->
@@ -58,9 +58,6 @@
        </tr>";
             //<!-- Início da tabela -->
             //<!-- Linha 1 da tabela -->
-            //$conexao = mysqli_connect("localhost","root","Renato123", "sistema_horario");
-
-          //  mysqli_set_charset($conexao, 'ut-8');
 
             mysqli_select_db($conexao, 'sistema_horario');
             $sql = mysqli_query($conexao, "SELECT * FROM horarios_das_disciplinas");
@@ -96,7 +93,7 @@
                             <td>
                                 <form action=PHP/excluir.php method=post>
                                     <input name=id type=hidden value=".$dados['id']." >
-                                  <button>Excluir</button>
+                                    <button>Excluir</button>
                                 </form>
                             </td>
                         
@@ -105,11 +102,6 @@
             }
 
        echo "</table>";                                // <!-- Fim da tabela -->
-  // <button type=button onclick=excluir(this)> Excluir </button> 
-//                      <th> <p id=botao_tabela_opcao> 
-                   //             <a href='editar.php' value="$dados['id']"> Editar </a> 
-                     //           <a href='excluir.php'> Excluir </a>
-                      //       </p> </th>      <button type=button onclick=editar(this)> Editar </button>     
                            
         ?>
 
